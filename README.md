@@ -41,11 +41,11 @@ Die folgende Liste gibt einen Überblick über mögliche Themen. <br/> Die entg�
 - GitOps 2.0 mit OpenFaaS Cloud
    - Public Community Cloud
    - Public Cloud mit GitHub 
-   - Private Cloud mit GitLab
+   - Private Cloud mit GitLab (Aussicht)
 
 <a name="voraussetzungen"></a>
 3. Teilnehmer-Voraussetzungen / Vorbereitung</br>
-[x] Notebook oder Mac Book</br>
+[x] Notebook oder MacBook</br>
 [x] Dockerumgebung <a href="https://docs.docker.com/docker-for-windows/install/" target="_blank"> Docker for Windows</a> oder <a href="https://docs.docker.com/docker-for-mac/install/" target="_black"> Docker for Mac</a> <br/>
 [x] Accounts für Github und Dockerhub</br>
 [x] HTTP-Testtool z.B. <a href="https://www.getpostman.com/" target="_blank">Postman</a><br />
