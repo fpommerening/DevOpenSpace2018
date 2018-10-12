@@ -1,0 +1,18 @@
+version: "3.5"
+services:
+  messagedb:
+    image: mongo:latest
+    networks: 
+      - mongomessage
+  webapp:
+    image: mongomessage:latest
+    ports:
+      - 4000:5000
+    networks: 
+      - mongomessage
+    depends_on:
+      - messagedb
+    environment: 
+      - MessageConnectionString=mongodb://messagedb
+networks: 
+  mongomessage:
